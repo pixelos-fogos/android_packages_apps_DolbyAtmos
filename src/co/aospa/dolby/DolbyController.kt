@@ -207,7 +207,7 @@ internal class DolbyController private constructor(private val context: Context)
             profile,
         )
         setVolumeLevelerEnabled(
-            prefs.getBoolean(DolbyConstants.PREF_VOLUME, getVolumeLevelerEnabled(profile)),
+            prefs.getBoolean(DolbyConstants.PREF_VOLUME, false),
             profile,
         )
     }
